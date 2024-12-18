@@ -1,0 +1,40 @@
+{
+    "main": { 
+      "image-container": {  
+        "totalImages": 6,
+        "images": "/img/product",
+        "fileExtension": ".jpg",
+        "slideInterval": 2000
+      }
+    }, 
+    "all_product": { 
+      "product": {
+        "itemsPerPage": 6,
+        "images": "/img/",
+        "fileExtension": ".jpg"
+      }
+    },
+    "hot": { 
+      "image-container": {  
+        "totalImages": 6,
+        "images": "/img/prouct",
+        "fileExtension": ".jpg",
+        "slideInterval": 2000
+      }
+    },
+    "on_sale": { 
+      "product": {
+        "itemsPerPage": 12,
+        "images": "/img/",
+        "fileExtension": ".jpg"
+      }
+    },
+    "new": { 
+      "product": {
+        "itemsPerPage": 6,
+        "images": "/img/",
+        "fileExtension": ".jpg"
+      }
+    }
+  }
+  

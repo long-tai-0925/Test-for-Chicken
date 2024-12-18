@@ -1,0 +1,14 @@
+[
+    { "id": 1, "name": "商品1", "img": "1.png", "dateAdded": "2024-12-19" },
+    { "id": 2, "name": "商品2", "img": "2.png", "dateAdded": "2024-12-15" },
+    { "id": 3, "name": "商品3", "img": "3.png", "dateAdded": "2024-12-31" },
+    { "id": 4, "name": "商品4", "img": "4.png", "dateAdded": "2024-12-21" },
+    { "id": 5, "name": "商品5", "img": "5.png", "dateAdded": "2024-12-15" },
+    { "id": 6, "name": "商品6", "img": "6.png", "dateAdded": "2024-12-11" },
+    { "id": 7, "name": "商品7", "img": "7.png", "dateAdded": "2024-12-19" },
+    { "id": 8, "name": "商品8", "img": "8.png", "dateAdded": "2024-12-20" },
+    { "id": 9, "name": "商品9", "img": "9.png", "dateAdded": "2024-12-08" },
+    { "id": 10, "name": "商品10", "img": "10.png", "dateAdded": "2024-12-05" },
+    { "id": 11, "name": "商品11", "img": "11.png", "dateAdded": "2024-12-17" }
+  ]
+  

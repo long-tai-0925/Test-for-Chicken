@@ -1,0 +1,25 @@
+.L, .R {
+  float: left;
+  box-sizing: border-box;
+}
+
+.L {
+  width: 50%;
+}
+
+.R {
+  width: 50%;
+}
+
+.container {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.L, .R {
+  float: left;
+  box-sizing: border-box;
+  padding: 25px;
+}

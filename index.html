@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        首頁
+    </title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/image-container.css">
+    <link rel="stylesheet" href="/css/footer.css">
+</head>
+<body data-config="main">
+    <div class="navbar">
+        <a href="/" class="logo">
+            Logo
+        </a>
+        <div class="dropdown">
+            <a href="所有商品" class="dropdown-toggle">
+                所有商品
+            </a>
+            <div class="dropdown-menu">
+                <a href="所有商品/首飾">
+                    首飾
+                </a>
+                <a href="所有商品/包款">
+                    包款
+                </a>
+                <a href="所有商品/鞋款">
+                    鞋款
+                </a>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="熱搜主題">
+                熱搜主題
+            </a>
+            <a href="特價商品">
+                特價商品
+            </a>
+            <a href="新品上架">
+                新品上架
+            </a>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="dropdown-toggle">
+                品牌故事
+            </a>
+            <div class="dropdown-menu">
+                <a href="/品牌故事/介紹">
+                    介紹
+                </a>
+                <a href="/品牌故事/指導老師">
+                    指導老師
+                </a>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="門市據點">
+                門市據點
+            </a>
+        </div>
+    </div>
+
+    <div class="image-container">
+        <button class="button prev" onclick="prevImage()">&#10094;</button>
+        <img id="slideshow" src="/img/1.png" alt="Image Slideshow">
+        <button class="button next" onclick="nextImage()">&#10095;</button>
+    </div>
+
+    <footer>
+        <p>
+            版權所有 &copy; 2024
+        </p>
+    </footer>
+
+    <script src="js/image-container.js"></script>
+</body>
+</html>

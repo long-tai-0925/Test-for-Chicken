@@ -1,0 +1,44 @@
+.image-container {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #727171;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .image-container::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+  }
+  
+  .image-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+    border-radius: 5px;
+  }
+  
+  .image-container img:not([src]) {
+    background-color: #555;
+  }
+  
+  .button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 10;
+  }
