@@ -1,5 +1,7 @@
 .image-container {
-    width: 100%;
+    width: auto ;
+    max-width: 350px;
+    height:120%;
     margin: 20px auto;
     display: flex;
     justify-content: center;
@@ -13,8 +15,9 @@
 
 .image-container img {
     width: 100%;
-    height: auto;
-    aspect-ratio: 21/29.7;
+    max-width: 350px;
+    height: 100%;
+    aspect-ratio: 21/29.7 ;
     object-fit: cover;
     border-radius: 10px;
 }

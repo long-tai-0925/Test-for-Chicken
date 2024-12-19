@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  width: 80%;
+  width: 50%;
   margin: 30px auto;
 }
 
@@ -10,7 +10,7 @@
   background-color: #444;
   color: white;
   position: relative;
-  padding-top: 70%;
+  padding-top: 115%;
   border-radius: 10px;
   text-align: center;
   display: flex;
@@ -23,19 +23,20 @@
   top: 5%;
   left: 50%;
   transform: translateX(-50%);
-  width: 94%;
-  height: auto;
+  width: 90%;
+  height: 80%;
   object-fit: cover;
   border-radius: 10px;
 }
 
 .product-item .item-content {
   position: absolute;
-  bottom: 6%;
+  bottom: 4%;
   left: 50%;
   transform: translateX(-50%);
   font-size: 110%;
 }
+
 
 .pagination {
   display: flex;

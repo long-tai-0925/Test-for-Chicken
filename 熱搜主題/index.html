@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        主題熱搜
+        熱搜主題
     </title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="navbar.css">
@@ -22,18 +22,17 @@
         <button class="button prev" onclick="prevImage()">
             &#10094;
         </button>
-        <img id="slideshow" src="/img/1.png" alt="Image Slideshow">
+        <img id="slideshow" src="/img/hot/1.png" alt="Image Slideshow">
         <button class="button next" onclick="nextImage()">
             &#10095;
         </button>
     </div>
-    <div class="product-container">
-    </div>
+    <div class="product-container" id="product-container"></div>
     <div class="pagination">
-        <button class="page-button">
+        <button class="page-button prev">  <!-- 加入 prev class -->
             上一頁
         </button>
-        <button class="page-button">
+        <button class="page-button next">  <!-- 加入 next class -->
             下一頁
         </button>
     </div>
@@ -44,5 +43,6 @@
     </footer>
     <script src="/js/image-container.js"></script>
     <script src="/js/product.js"></script>
+
 </body>
 </html>

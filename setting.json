@@ -2,37 +2,48 @@
     "main": { 
       "image-container": {  
         "totalImages": 6,
-        "images": "/img/product",
-        "fileExtension": ".jpg",
+        "images": "/img/board/",
+        "fileExtension": ".png",
         "slideInterval": 2000
       }
     }, 
     "all_product": { 
       "product": {
         "itemsPerPage": 6,
-        "images": "/img/",
+        "images": "/img/product/",
         "fileExtension": ".jpg"
       }
     },
     "hot": { 
       "image-container": {  
         "totalImages": 6,
-        "images": "/img/prouct",
-        "fileExtension": ".jpg",
+        "images": "/img/hot/",
+        "fileExtension": ".png",
         "slideInterval": 2000
+      },
+      "product": {
+        "itemsPerPage": 6,
+        "images": "/img/product",
+        "fileExtension": ".jpg"
       }
     },
     "on_sale": { 
       "product": {
-        "itemsPerPage": 12,
-        "images": "/img/",
+        "itemsPerPage": 4,
+        "images": "/img/product/",
         "fileExtension": ".jpg"
       }
     },
     "new": { 
+      "image-container": {  
+        "totalImages": 6,
+        "images": "/img/new/",
+        "fileExtension": ".png",
+        "slideInterval": 2000
+      },
       "product": {
-        "itemsPerPage": 6,
-        "images": "/img/",
+        "itemsPerPage": 2,
+        "images": "/img/product/",
         "fileExtension": ".jpg"
       }
     }

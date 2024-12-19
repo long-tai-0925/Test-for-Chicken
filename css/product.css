@@ -10,7 +10,7 @@
     background-color: #444;
     color: white;
     position: relative;
-    padding-top: 70%;
+    padding-top: 115%;
     border-radius: 10px;
     text-align: center;
     display: flex;
@@ -23,8 +23,8 @@
     top: 5%;
     left: 50%;
     transform: translateX(-50%);
-    width: 94%;
-    height: auto;
+    width: 90%;
+    height: 80%;
     object-fit: cover;
     border-radius: 10px;
 }
