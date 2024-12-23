@@ -1,0 +1,110 @@
+[
+  {
+    "image": "/img/1.jpg",
+    "name": "包款1",
+    "category": "包款",
+    "date": "2023-12-20",
+    "sales": 100,
+    "id": "A123456789",
+    "price": "1000"
+  },
+  {
+    "image": "/img/2.jpg",
+    "name": "包款2",
+    "category": "包款",
+    "date": "2023-12-15",
+    "sales": 50,
+    "id": "B987654321",
+    "price": "1200"
+  },
+  {
+    "image": "/img/3.jpg",
+    "name": "包款3",
+    "category": "包款",
+    "date": "2023-12-10",
+    "sales": 200,
+    "id": "C123456789",
+    "price": "800"
+  },
+  {
+    "image": "/img/4.jpg",
+    "name": "包款4",
+    "category": "包款",
+    "date": "2023-12-05",
+    "sales": 150,
+    "id": "D987654321",
+    "price": "1500"
+  },
+  {
+    "image": "/img/5.jpg",
+    "name": "包款5",
+    "category": "包款",
+    "date": "2023-12-01",
+    "sales": 300,
+    "id": "E123456789",
+    "price": "2000"
+  },
+  {
+    "image": "/img/6.jpg",
+    "name": "包款6",
+    "category": "包款",
+    "date": "2023-11-30",
+    "sales": 250,
+    "id": "F987654321",
+    "price": "1800"
+  },
+  {
+    "image": "/img/7.jpg",
+    "name": "首飾7",
+    "category": "首飾",
+    "date": "2023-11-25",
+    "sales": 400,
+    "id": "G123456789",
+    "price": "2500"
+  },
+  {
+    "image": "/img/8.jpg",
+    "name": "首飾8",
+    "category": "首飾",
+    "date": "2023-11-20",
+    "sales": 350,
+    "id": "H987654321",
+    "price": "2300"
+  },
+  {
+    "image": "/img/9.jpg",
+    "name": "首飾9",
+    "category": "首飾",
+    "date": "2023-11-15",
+    "sales": 500,
+    "id": "I123456789",
+    "price": "2800"
+  },
+  {
+    "image": "/img/10.jpg",
+    "name": "首飾10",
+    "category": "首飾",
+    "date": "2023-11-10",
+    "sales": 450,
+    "id": "J987654321",
+    "price": "3000"
+  },
+  {
+    "image": "/img/11.jpg",
+    "name": "鞋類11",
+    "category": "鞋類",
+    "date": "2023-11-05",
+    "sales": 600,
+    "id": "K123456789",
+    "price": "3300"
+  },
+  {
+    "image": "/img/12.jpg",
+    "name": "鞋類12 無圖片測試",
+    "category": "鞋類",
+    "date": "2023-11-01",
+    "sales": 550,
+    "id": "L987654321",
+    "price": "3100"
+  }
+]
