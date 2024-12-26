@@ -7,7 +7,6 @@ const images = [
   'img/board/3.png',
   'img/board/4.png',
   'img/board/5.png',
-  'img/board/6.png',
 ];
 let currentImageIndex = 0; // 初始顯示的圖片索引
 
