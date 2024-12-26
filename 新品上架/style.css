@@ -100,24 +100,24 @@ nav a {
 
 /* 選擇 class 為 prev 的元素 */
 .i-prev {
-  left: 5%; /* 距離左側 10px */
+  left: 7%; /* 距離左側 10px */
 }
 
 /* 選擇 class 為 next 的元素 */
 .i-next {
-  left: 100%; /* 距離右側 10px */
+  left: 98%; /* 距離右側 10px */
 }
 
 	 @media screen and (max-width : 1600px) {
 	 .i-next {
-  left: 98%; /* 距離右側 10px */
+  left: 95%; /* 距離右側 10px */
 }
 
 }
 
 	 @media screen and (max-width : 1200px) {
 	 .i-next {
-  left: 95%; /* 距離右側 10px */
+  left: 92%; /* 距離右側 10px */
 }
 
 }
@@ -126,7 +126,21 @@ nav a {
 	 @media screen and (max-width : 800px) {
 
 .i-next {
-    left: 93%;
+    left: 89%;
+}
+}
+
+	 @media screen and (max-width : 600px) {
+
+.i-next {
+    left: 80%;
+}
+}
+
+	 @media screen and (max-width : 400px) {
+
+.i-next {
+    left: 76%;
 }
 }
 
