@@ -2,11 +2,11 @@ const prevButton = document.querySelector('.prev');
 const nextButton = document.querySelector('.next');
 const image = document.querySelector('.image-container img');
 const images = [
-  'img/board/1.png',
-  'img/board/2.png',
-  'img/board/3.png',
-  'img/board/4.png',
-  'img/board/5.png',
+  '/img/board/1.png',
+  '/img/board/2.png',
+  '/img/board/3.png',
+  '/img/board/4.png',
+  '/img/board/5.png',
 ];
 let currentImageIndex = 0; // 初始顯示的圖片索引
 

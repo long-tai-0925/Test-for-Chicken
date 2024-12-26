@@ -45,6 +45,26 @@ nav li {
     margin-left: 20px; /* 調整項目之間的間距 */
 }
 
+
+	 @media screen and (max-width : 1000px) {
+	 
+
+nav li {
+    margin-left: 0px; /* 調整項目之間的間距 */
+}
+	 
+
+	 }
+	 
+	 
+	 
+.addli {
+	margin-top: 0px;
+	font-size: 15px;
+    }
+
+
+
 /* 選擇 nav 元素下的 a 元素 */
 nav a {
     text-decoration: none; /* 移除連結底線 */
@@ -59,19 +79,34 @@ nav a {
 
 /* 選擇 class 為 dropdown-content 的元素 */
 .dropdown-content {
-    display: none; /* 預設隱藏下拉選單 */
-    position: absolute; /* 使用絕對定位 */
-    background-color: #ccc; /* 設定背景顏色為 #333 */
-    color: #000;
-    min-width: 160px; /* 設定最小寬度為 160px */
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* 設定陰影效果 */
-    z-index: 1; /* 確保下拉選單顯示在其他元素上方 */
+	display: none; /* 預設隱藏下拉選單 */
+	position: absolute; /* 使用絕對定位 */
+	background-color: #ccc; /* 設定背景顏色為 #333 */
+	color: #000;
+	min-width: 100px; /* 設定最小寬度為 160px */
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* 設定陰影效果 */
+	z-index: 1; /* 確保下拉選單顯示在其他元素上方
+	 */
+
 }
+	 @media screen and (max-width : 800px) {
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ccc;
+    color: #000;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+}
+
 
 /* 選擇 class 為 dropdown-content 的元素下的 a 元素 */
 .dropdown-content a {
     color: 000; /* 設定文字顏色為白色 */
-    padding: 5px 5px; /* 設定內邊距為上下 12px、左右 16px */
+    padding: 5px 0px; /* 設定內邊距為上下 12px、左右 16px */
     text-decoration: none; /* 移除連結底線 */
     display: block; /* 將下拉選單項目設定為 block 元素，以便它們可以佔據整行 */
 }
@@ -148,11 +183,12 @@ footer {
   }
   
   .bar {
-    background-color: #444;
-    height: 3px;
-    width: 100%;
-    margin: 4px 0;
-    border-radius: 2px;
+	background-color: #444;
+	height: 3px;
+	width: 100%;
+	margin: 4px 0;
+	border-radius: 2px;
+
   }
   
   @media (max-width: 1000px) {
@@ -164,6 +200,7 @@ footer {
       width: 16.666%; /* 設定 width 為 100% */
       background-color: #ccc;
       padding: 15px 20px; /* 設定內邊距為上下 12px、左右 16px */
+	  	text-align: center;
 
     }
     

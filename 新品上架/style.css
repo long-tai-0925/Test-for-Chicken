@@ -61,7 +61,7 @@ nav a {
   /*  長寬比固定長:寬 29.7:21 */
   width: 40%; 
   left: 10%;
-  padding-top: 28.24%; /* padding-top: (21 / 29.7) * 100% */
+  padding-top: 45%; /* padding-top: (21 / 29.7) * 100% */
   float: left; /*  靠左浮動 */
 }
 
@@ -105,8 +105,31 @@ nav a {
 
 /* 選擇 class 為 next 的元素 */
 .i-next {
+  left: 100%; /* 距離右側 10px */
+}
+
+	 @media screen and (max-width : 1600px) {
+	 .i-next {
+  left: 98%; /* 距離右側 10px */
+}
+
+}
+
+	 @media screen and (max-width : 1200px) {
+	 .i-next {
   left: 95%; /* 距離右側 10px */
 }
+
+}
+
+
+	 @media screen and (max-width : 800px) {
+
+.i-next {
+    left: 93%;
+}
+}
+
 
 /* 商品容器樣式 */
 #product-list { /* 使用 id 選擇器 */
@@ -150,10 +173,13 @@ nav a {
 /* 分頁樣式 */
 .pagination {
   display: flex;
-  justify-content: flex-end; /*  改為 flex-end */
+  justify-content: center; /*  改為 flex-end */
   margin-top: 30px;
-  margin-right: 22%; /*  新增 margin-right */
 }
+
+
+
+
 
 /* 分頁按鈕樣式 */
 .page-button {
