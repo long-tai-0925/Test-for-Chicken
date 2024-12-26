@@ -100,7 +100,7 @@ nav a {
 
 /* 選擇 class 為 prev 的元素 */
 .i-prev {
-  left: 7%; /* 距離左側 10px */
+  left: 8%; /* 距離左側 10px */
 }
 
 /* 選擇 class 為 next 的元素 */
