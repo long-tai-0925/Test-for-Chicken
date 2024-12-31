@@ -1,0 +1,335 @@
+[
+  {
+    "image": "/img/product/1.jpg",
+    "name": "包款1",
+    "category": "包款",
+    "date": "2023-12-20",
+    "sales": 100,
+    "id": "A123456789",
+    "price": "1000"
+  },
+  {
+    "image": "/img/product/2.jpg",
+    "name": "包款2",
+    "category": "包款",
+    "date": "2023-12-15",
+    "sales": 50,
+    "id": "B987654321",
+    "price": "1200"
+  },
+  {
+    "image": "/img/product/3.jpg",
+    "name": "包款3",
+    "category": "包款",
+    "date": "2023-12-10",
+    "sales": 200,
+    "id": "C123456789",
+    "price": "800"
+  },
+  {
+    "image": "/img/product/4.jpg",
+    "name": "包款4",
+    "category": "包款",
+    "date": "2023-12-05",
+    "sales": 150,
+    "id": "D987654321",
+    "price": "1500"
+  },
+  {
+    "image": "/img/product/5.jpg",
+    "name": "包款5",
+    "category": "包款",
+    "date": "2023-12-01",
+    "sales": 300,
+    "id": "E123456789",
+    "price": "2000"
+  },
+  {
+    "image": "/img/product/6.jpg",
+    "name": "包款6",
+    "category": "包款",
+    "date": "2023-11-30",
+    "sales": 250,
+    "id": "F987654321",
+    "price": "1800"
+  },
+  {
+    "image": "/img/product/7.jpg",
+    "name": "包款7",
+    "category": "包款",
+    "date": "2023-11-25",
+    "sales": 400,
+    "id": "G123456789",
+    "price": "2500"
+  },
+  {
+    "image": "/img/product/8.jpg",
+    "name": "包款8",
+    "category": "包款",
+    "date": "2023-11-20",
+    "sales": 350,
+    "id": "H987654321",
+    "price": "2300"
+  },
+  {
+    "image": "/img/product/9.jpg",
+    "name": "包款9",
+    "category": "包款",
+    "date": "2023-11-15",
+    "sales": 500,
+    "id": "I123456789",
+    "price": "2800"
+  },
+  {
+    "image": "/img/product/10.jpg",
+    "name": "包款10",
+    "category": "包款",
+    "date": "2023-11-10",
+    "sales": 450,
+    "id": "J987654321",
+    "price": "3000"
+  },
+  {
+    "image": "/img/product/11.jpg",
+    "name": "包款11",
+    "category": "包款",
+    "date": "2023-11-05",
+    "sales": 600,
+    "id": "K123456789",
+    "price": "3300"
+  },
+  {
+    "image": "/img/product/12.jpg",
+    "name": "包款12",
+    "category": "包款",
+    "date": "2023-11-01",
+    "sales": 550,
+    "id": "L987654321",
+    "price": "3100"
+  },
+  {
+    "image": "/img/product/13.jpg",
+    "name": "包款13",
+    "category": "包款",
+    "date": "2023-10-30",
+    "sales": 700,
+    "id": "M123456789",
+    "price": "3600"
+  },
+  {
+    "image": "/img/product/14.jpg",
+    "name": "包款14",
+    "category": "包款",
+    "date": "2023-10-25",
+    "sales": 650,
+    "id": "N987654321",
+    "price": "3400"
+  },
+  {
+    "image": "/img/product/15.jpg",
+    "name": "包款15",
+    "category": "包款",
+    "date": "2023-10-20",
+    "sales": 800,
+    "id": "O123456789",
+    "price": "3800"
+  },
+  {
+    "image": "/img/product/16.jpg",
+    "name": "包款16",
+    "category": "包款",
+    "date": "2023-10-15",
+    "sales": 750,
+    "id": "P987654321",
+    "price": "4000"
+  },
+  {
+    "image": "/img/product/17.jpg",
+    "name": "包款17",
+    "category": "包款",
+    "date": "2023-10-10",
+    "sales": 900,
+    "id": "Q123456789",
+    "price": "4300"
+  },
+  {
+    "image": "/img/product/18.jpg",
+    "name": "包款18",
+    "category": "包款",
+    "date": "2023-10-05",
+    "sales": 850,
+    "id": "R987654321",
+    "price": "4100"
+  },
+  {
+    "image": "/img/product/19.jpg",
+    "name": "包款19",
+    "category": "包款",
+    "date": "2023-10-01",
+    "sales": 1000,
+    "id": "S123456789",
+    "price": "4500"
+  },
+  {
+    "image": "/img/product/20.jpg",
+    "name": "包款20",
+    "category": "包款",
+    "date": "2023-09-30",
+    "sales": 950,
+    "id": "T987654321",
+    "price": "4700"
+  },
+  {
+    "image": "/img/product/21.jpg",
+    "name": "包款21",
+    "category": "包款",
+    "date": "2023-09-25",
+    "sales": 1100,
+    "id": "U123456789",
+    "price": "5000"
+  },
+  {
+    "image": "/img/product/22.jpg",
+    "name": "包款22",
+    "category": "包款",
+    "date": "2023-09-20",
+    "sales": 1050,
+    "id": "V987654321",
+    "price": "4800"
+  },
+  {
+    "image": "/img/product/23.jpg",
+    "name": "包款23",
+    "category": "包款",
+    "date": "2023-09-15",
+    "sales": 1200,
+    "id": "W123456789",
+    "price": "5200"
+  },
+  {
+    "image": "/img/product/24.jpg",
+    "name": "包款24",
+    "category": "包款",
+    "date": "2023-09-10",
+    "sales": 1150,
+    "id": "X987654321",
+    "price": "5000"
+  },
+  {
+    "image": "/img/product/25.jpg",
+    "name": "包款25",
+    "category": "包款",
+    "date": "2023-09-05",
+    "sales": 1300,
+    "id": "Y123456789",
+    "price": "5500"
+  },
+  {
+    "image": "/img/product/26.jpg",
+    "name": "包款26",
+    "category": "包款",
+    "date": "2023-09-01",
+    "sales": 1250,
+    "id": "Z987654321",
+    "price": "5300"
+  },
+  {
+    "image": "/img/product/27.jpg",
+    "name": "包款27",
+    "category": "包款",
+    "date": "2023-08-30",
+    "sales": 1400,
+    "id": "AA123456789",
+    "price": "5800"
+  },
+  {
+    "image": "/img/product/28.jpg",
+    "name": "包款28",
+    "category": "包款",
+    "date": "2023-08-25",
+    "sales": 1350,
+    "id": "AB987654321",
+    "price": "5600"
+  },
+  {
+    "image": "/img/product/29.jpg",
+    "name": "包款29",
+    "category": "包款",
+    "date": "2023-08-20",
+    "sales": 1500,
+    "id": "AC123456789",
+    "price": "6000"
+  },
+  {
+    "image": "/img/product/30.jpg",
+    "name": "包款30",
+    "category": "包款",
+    "date": "2023-08-15",
+    "sales": 1450,
+    "id": "AD987654321",
+    "price": "5800"
+  },
+  {
+    "image": "/img/product/31.jpg",
+    "name": "包款31",
+    "category": "包款",
+    "date": "2023-08-10",
+    "sales": 1600,
+    "id": "AE123456789",
+    "price": "6200"
+  },
+  {
+    "image": "/img/product/32.jpg",
+    "name": "包款32",
+    "category": "包款",
+    "date": "2023-08-05",
+    "sales": 1550,
+    "id": "AF987654321",
+    "price": "6000"
+  },
+  {
+    "image": "/img/product/33.jpg",
+    "name": "包款33",
+    "category": "包款",
+    "date": "2023-08-01",
+    "sales": 1700,
+    "id": "AG123456789",
+    "price": "6500"
+  },
+  {
+    "image": "/img/product/34.jpg",
+    "name": "包款34",
+    "category": "包款",
+    "date": "2023-07-30",
+    "sales": 1650,
+    "id": "AH987654321",
+    "price": "6300"
+  },
+  {
+    "image": "/img/product/35.jpg",
+    "name": "包款35",
+    "category": "包款",
+    "date": "2023-07-25",
+    "sales": 1800,
+    "id": "AI123456789",
+    "price": "6700"
+  },
+  {
+    "image": "/img/product/36.jpg",
+    "name": "包款36",
+    "category": "包款",
+    "date": "2023-07-20",
+    "sales": 1750,
+    "id": "AJ987654321",
+    "price": "6500"
+  },
+  {
+    "image": "/img/product/37.jpg",
+    "name": "包款37",
+    "category": "包款",
+    "date": "2023-07-15",
+    "sales": 1900,
+    "id": "AK123456789",
+    "price": "7000"
+  }
+]

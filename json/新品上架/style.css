@@ -1,0 +1,236 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #333;
+  color: #fff;
+}
+
+/* 選擇 header 元素 */
+header {
+  background-color: #ccc;
+  padding: 10px 20px;
+  border-radius: 150px;
+  /* 寬度與 product-list 一致 */
+  width: 37%;
+  max-width: 700px;
+  position: fixed;
+  top: 20px;
+  left: 32%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* 選擇 class 為 header-content 的元素 */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  left: 50%;
+}
+
+/* 選擇 nav 元素下的 ul 元素 */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: flex-end; /* 將連結靠右對齊 */
+  margin-left: 15px; /* 距離左邊緣 15px */
+}
+
+/* 選擇 nav 元素下的 li 元素 */
+nav li {
+  margin-left: 20px;
+}
+
+/* 選擇 nav 元素下的 a 元素 */
+nav a {
+  text-decoration: none;
+  color: #444;
+}
+
+/* 選擇 class 為 image-container 的元素 */
+.image-container {
+  position: relative; /* 設定相對定位 */
+  /*  長寬比固定長:寬 29.7:21 */
+  width: 40%; 
+  left: 10%;
+  padding-top: 45%; /* padding-top: (21 / 29.7) * 100% */
+  float: left; /*  靠左浮動 */
+}
+
+/* 選擇 class 為 image-container 的元素下的 img 元素 */
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 100%; /* 設定寬度為 100% */
+  height: 100%; /* 設定高度為 100% */
+  border-radius: 15px; /* 設定圓角為 15px */
+  object-fit: cover;
+}
+
+/* 選擇 class 為 text-overlay 的元素 */
+.text-overlay {
+  position: absolute; /* 使用絕對定位 */
+  top: 50%; /* 距離頂部 50% */
+  left: 50%; /* 距離左側 50% */
+  transform: translate(-50%, -50%); /* 將元素的中心點移動到父元素的中心點 */
+  color: white; /* 設定文字顏色為白色 */
+}
+
+/* 選擇 class 為 prev 和 next 的元素 */
+.i-prev, .i-next {
+  position: absolute; /* 使用絕對定位 */
+  top: 50%; /* 距離頂部 50% */
+  transform: translateY(-50%); /* 將元素垂直居中 */
+  background-color: rgba(0, 0, 0, 0.5); /* 設定背景顏色為半透明黑色 */
+  color: white; /* 設定文字顏色為白色 */
+  border: none; /* 移除邊框 */
+  padding: 10px 15px; /* 設定內邊距為上下 10px、左右 15px */
+  font-size: 20px; /* 設定字體大小為 20px */
+  cursor: pointer; /* 設定滑鼠游標為 pointer */
+}
+
+/* 選擇 class 為 prev 的元素 */
+.i-prev {
+  left: 5%; /* 距離左側 10px */
+}
+
+/* 選擇 class 為 next 的元素 */
+.i-next {
+  left: 100%; /* 距離右側 10px */
+}
+
+	 @media screen and (max-width : 1600px) {
+	 .i-next {
+  left: 98%; /* 距離右側 10px */
+}
+
+}
+
+	 @media screen and (max-width : 1200px) {
+	 .i-next {
+  left: 95%; /* 距離右側 10px */
+}
+
+}
+
+
+	 @media screen and (max-width : 800px) {
+
+.i-next {
+    left: 93%;
+}
+}
+
+
+/* 商品容器樣式 */
+#product-list { /* 使用 id 選擇器 */
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  width: 20%;
+  max-width: 700px;
+  margin: 100px auto 30px; /*  調整 margin */
+  margin-left: auto; /*  靠右 */
+}
+
+/* 商品項目樣式 */
+.product-item {
+  background-color: #444;
+  color: white;
+  border-radius: 10px;
+  display: grid;
+  /* 使用 grid 佈局 */
+  grid-template-rows: auto auto;
+  /* 設定兩列 */
+  align-items: center;
+  /* 垂直置中 */
+  text-align: center;
+}
+
+/* 商品圖片樣式 */
+.product-item img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  /* 保持圖片比例 */
+  border-radius: 10px;
+}
+
+/* 商品資訊樣式 */
+.product-item .item-content {
+  font-size: 110%;
+}
+
+/* 分頁樣式 */
+.pagination {
+  display: flex;
+  justify-content: center; /*  改為 flex-end */
+  margin-top: 30px;
+}
+
+
+
+
+
+/* 分頁按鈕樣式 */
+.page-button {
+  background-color: #cccccc;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.page-button:hover {
+  background-color: #999;
+}
+
+
+/* 選擇 footer 元素 */
+footer {
+  background-color: #222; /* 設定背景顏色為 #222 */
+  text-align: center; /* 設定文字水平居中 */
+  padding: 10px; /* 設定內邊距為 10px */
+  position: fixed; /* 使用固定定位 */
+  bottom: 0; /* 距離底部 0px */
+  width: 100%; /* 設定寬度為 100% */
+}
+
+@media (max-width: 1000px) {
+  nav ul {
+    display: block;
+    position: fixed;
+    top: 40px;
+    right: 1px;
+    width: 16.666%; /* 設定 width 為 100% */
+    background-color: #ccc;
+    padding: 15px 20px; /* 設定內邊距為上下 12px、左右 16px */
+
+  }
+  
+  nav li {
+      margin-top: 15px; /* 將項目之間的間距調整為 5px */
+    }
+  
+  .dropdown-content {
+    position: static;
+    display: none;
+    background-color: #ccc;
+    color: #fff;
+  }
+
+  .burger {
+    display: block;
+  }
+}
