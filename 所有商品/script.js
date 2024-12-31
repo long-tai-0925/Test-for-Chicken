@@ -1,4 +1,4 @@
-fetch('/json/product.json')
+ㄩfetch('/json/product.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
@@ -14,7 +14,7 @@ fetch('/json/product.json')
     loader.textContent = 'Loading...';
     productList.appendChild(loader);
 
-    const productsPerPage = 34;
+    const productsPerPage = 6;
     let currentPage = 1;
     let currentCategory = null;
 
