@@ -110,28 +110,3 @@ burger.addEventListener('click', () => {
     navUl.style.display = 'none';
   }
 });
-
-
-const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
-const image = document.querySelector('.image-container img');
-const images = [
-  'img/board/1.png',
-  'img/board/2.png',
-  'img/board/3.png',
-  'img/board/4.png',
-  'img/board/5.png',
-  'img/board/6.png',
-  // ...更多圖片
-];
-let currentImageIndex = 0; // 初始顯示的圖片索引
-
-prevButton.addEventListener('click', () => {
-  currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
-  image.src = images[currentImageIndex];
-});
-
-nextButton.addEventListener('click', () => {
-  currentImageIndex = (currentImageIndex + 1) % images.length;
-  image.src = images[currentImageIndex];
-});

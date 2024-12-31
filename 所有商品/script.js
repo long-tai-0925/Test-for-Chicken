@@ -14,7 +14,7 @@ fetch('/json/product.json')
     loader.textContent = 'Loading...';
     productList.appendChild(loader);
 
-    const productsPerPage = 6;
+    const productsPerPage = 34;
     let currentPage = 1;
     let currentCategory = null;
 
@@ -31,7 +31,7 @@ fetch('/json/product.json')
       productList.innerHTML = '';
 
       if (currentProducts.length === 0) {
-        productList.innerHTML = '<p>No products found in this category.</p>';
+        productList.innerHTML = '<p>QQ 沒有這個分類的商品.json</p>';
         if (loader && productList.contains(loader)) {
           productList.removeChild(loader);
         }

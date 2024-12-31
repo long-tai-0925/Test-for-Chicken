@@ -120,7 +120,8 @@ nav a {
 
 /* 商品資訊樣式 */
 .product-item .item-content {
-  font-size: 110%;
+  font-size: 16px;
+  padding: 0 0 20px;
 }
 
 /* 分頁樣式 */
