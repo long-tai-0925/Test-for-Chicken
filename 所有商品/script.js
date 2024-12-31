@@ -1,4 +1,4 @@
-ㄩfetch('/json/product.json')
+fetch('/json/product.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
