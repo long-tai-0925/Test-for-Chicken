@@ -219,3 +219,7 @@ footer {
       display: block;
     }
   }
+
+p {
+    text-align: center; /* 設定文字水平居中 */
+}
